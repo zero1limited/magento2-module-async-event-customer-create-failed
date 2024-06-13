@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_create_failed">
+        <observer name="zero1_async_event_customer_create_failed"
+                  instance="Zero1\AsyncEventCustomerCreateFailed\Observer\CustomerCreateFailedObserver"/>
+    </event>
+</config>
